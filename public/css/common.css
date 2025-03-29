@@ -1,0 +1,41 @@
+/* Applies to most if not all pages. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.navbar{
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar h1{
+    margin-left: 1rem;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.nav-links li{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: #333;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.error {
+    color: red;
+}
